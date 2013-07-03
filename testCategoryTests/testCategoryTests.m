@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import "NSMutableString+Capitalize.h"
 @interface testCategoryTests : XCTestCase
 
 @end
@@ -30,7 +30,10 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSMutableString *string=[NSMutableString stringWithFormat:@"gonzales"] ;
+    [string capitalize];
+    XCTAssertTrue([string isEqualToString:@"Gonzales"]);
+    
 }
 
 @end

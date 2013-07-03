@@ -22,6 +22,10 @@
 		7E18BB69178445E3008178FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E18BB48178445E3008178FA /* UIKit.framework */; };
 		7E18BB71178445E3008178FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E18BB6F178445E3008178FA /* InfoPlist.strings */; };
 		7E18BB73178445E3008178FA /* testCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E18BB72178445E3008178FA /* testCategoryTests.m */; };
+		7E18BB7E17844615008178FA /* NSMutableString+Capitalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E18BB7D17844615008178FA /* NSMutableString+Capitalize.m */; };
+		7E18BB7F17844615008178FA /* NSMutableString+Capitalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E18BB7D17844615008178FA /* NSMutableString+Capitalize.m */; };
+		7E18BB8217844992008178FA /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E18BB8117844992008178FA /* Car.m */; };
+		7E18BB8317844992008178FA /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E18BB8117844992008178FA /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		7E18BB6E178445E3008178FA /* testCategoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testCategoryTests-Info.plist"; sourceTree = "<group>"; };
 		7E18BB70178445E3008178FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E18BB72178445E3008178FA /* testCategoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testCategoryTests.m; sourceTree = "<group>"; };
+		7E18BB7C17844615008178FA /* NSMutableString+Capitalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Capitalize.h"; sourceTree = "<group>"; };
+		7E18BB7D17844615008178FA /* NSMutableString+Capitalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Capitalize.m"; sourceTree = "<group>"; };
+		7E18BB8017844992008178FA /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		7E18BB8117844992008178FA /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,10 @@
 				7E18BB5D178445E3008178FA /* ViewController.m */,
 				7E18BB5F178445E3008178FA /* Images.xcassets */,
 				7E18BB4B178445E3008178FA /* Supporting Files */,
+				7E18BB7C17844615008178FA /* NSMutableString+Capitalize.h */,
+				7E18BB7D17844615008178FA /* NSMutableString+Capitalize.m */,
+				7E18BB8017844992008178FA /* Car.h */,
+				7E18BB8117844992008178FA /* Car.m */,
 			);
 			path = testCategory;
 			sourceTree = "<group>";
@@ -253,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E18BB8217844992008178FA /* Car.m in Sources */,
 				7E18BB5E178445E3008178FA /* ViewController.m in Sources */,
 				7E18BB55178445E3008178FA /* AppDelegate.m in Sources */,
+				7E18BB7E17844615008178FA /* NSMutableString+Capitalize.m in Sources */,
 				7E18BB51178445E3008178FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E18BB8317844992008178FA /* Car.m in Sources */,
+				7E18BB7F17844615008178FA /* NSMutableString+Capitalize.m in Sources */,
 				7E18BB73178445E3008178FA /* testCategoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
